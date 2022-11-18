@@ -26,6 +26,7 @@
             border: 2px solid #EA0000;
         }
 
+        .mandatory,
         label.error {
             color: #EA0000;
         }
@@ -53,7 +54,7 @@
                                     <th colspan="3"><b>Data Siswa</b></th>
                                 </tr>
                                 <tr>
-                                    <td>No. Induk Siswa (NIS)</td>
+                                    <td>No. Induk Siswa (NIS) <i class="mandatory">*</i></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text" name="nim" id="nim" class="form-control numeric"
@@ -61,7 +62,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Nama siswa</td>
+                                    <td>Nama siswa <i class="mandatory">*</i></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text" name="nama" id="nama" class="form-control text" required>
@@ -71,7 +72,7 @@
                                     <th colspan="3"><b>Data Nilai Siswa</b></th>
                                 </tr>
                                 <tr>
-                                    <td>Kehadiran</td>
+                                    <td>Kehadiran <i class="mandatory">*</i></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text" name="hadir" id="hadir" class="form-control numeric hadir"
@@ -79,7 +80,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Total Pertemuan</td>
+                                    <td>Total Pertemuan <i class="mandatory">*</i></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text" name="temu" id="temu" class="form-control numeric hadir"
@@ -87,7 +88,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Nilai Tugas</td>
+                                    <td>Nilai Tugas <i class="mandatory">*</i></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text" name="tugas" id="tugas" class="form-control numeric nilai"
@@ -95,7 +96,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Nilai UTS</td>
+                                    <td>Nilai UTS <i class="mandatory">*</i></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text" name="uts" id="uts" class="form-control numeric nilai"
@@ -103,7 +104,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Nilai UAS</td>
+                                    <td>Nilai UAS <i class="mandatory">*</i></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text" name="uas" id="uas" class="form-control numeric nilai"
