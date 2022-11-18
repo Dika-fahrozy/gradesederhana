@@ -1,0 +1,2 @@
+# gradesederhana
+Sistem Grade Sederhana
